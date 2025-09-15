@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Button */
+.btn-danger{
+    background-color: #db0001;
+    border-radius: 10px;
+    border-color: #db0001;
+    padding: 10px 45px;
+    color: white;
+}
+.btn-outline-danger{
+    background-color:transparan;
+    border-radius: 10px;
+    border-color: #db0001;
+    padding: 10px 45px;
+    color: #db0001;
+}
+
+/* Navbar */
+.nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active{
+    background-color: white;
+    /*border-bottom:1px solid #db0001 ;*/
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active{
+    color: black;
+}
+
+/* Hero */
+#hero{
+    background-image: url('../../assets/images/il-siswa.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#hero2{
+    background-color: rgb(67, 50, 50);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.hero-title{
+    padding-top: 200px;
+}
+
+.hero-text{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* responsive 450 */
+@media screen and (min-width:450px) {
+    .hero-text{
+    font-size: 35px;
+    font-weight: 600;
+}
+}
+
+/* Register */
+.stripe{
+    height: 5px;
+    width: 30px;
+    background-color: #db0001;
+}
+
+/* Vidio Pembelajaran */
+#vidio{
+    background-image: url("../images/il-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Tentang */
+.section-tentang{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Paralax BG */
+.parallax{
+    background-image: url("../images/il-poto.jpeg");
+}
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #ffff;
+}
+
+.btn-outline-white {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.btn-outline-white:hover {
+  background-color: white;
+  color: black;
+}
